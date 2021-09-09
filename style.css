@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gray;
+    text-align: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    box-shadow: 6px 2px 20px 3px rgb(0 255 13 / 92%)
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+main {
+    margin: 100px 5rem;
+}
+
+main>p {
+    margin: 1rem 0;
+}
